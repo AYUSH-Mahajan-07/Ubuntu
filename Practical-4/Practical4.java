@@ -25,7 +25,7 @@ public static int getShort(int num){
      }
      return ans ;
 }
-
+//getByte code starts from here
 public static int getByte(int num){
      int ans = 0 ;
      int temp = num / 128;
