@@ -1,6 +1,11 @@
 class Practical9{
-
+  
   public static void main(String[] args){
+   if (args.length == 0) {
+    System.out.println("Enter the array size : ");
+    return;
+  }
+  
     long[] array = new long[10];
     long[] array2 = new long[10]; 
     long start =0;
