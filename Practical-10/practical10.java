@@ -1,7 +1,7 @@
 class Practical10 {
   public static void main(String[] args) {
     int grid = 9; // Grid size (fixed at 9)
-    Sudoku generator = new Sudoku();
+    Practical10 generator = new Practical10();
     generator.sudoku(grid);
   }
 
